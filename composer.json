@@ -1,0 +1,24 @@
+{
+    "name": "bricks81/bricks-eventizr",
+    "description": "Bricks CMS Framework - Eventizr",
+    "license": "MIT",
+    "keywords": [
+        "bricks",
+        "eventizr"
+    ],
+    "homepage": "https://www.bricks-cms.org",
+    "autoload": {
+        "psr-4": {
+            "Bricks\\Eventizr\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+       	"bricks81/bricks-config": "*",
+       	"bricks81/bricks-loader": "*",
+       	"bricks81/bricks-file": "*",
+       	"nikic/php-parser": "*"       
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false    
+}
